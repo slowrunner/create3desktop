@@ -1,7 +1,24 @@
 # create3desktop
 Create3 ROS2 Galactic Desktop Environment (over Ubuntu in Fusion VM on Mac)
 
-Configuration:
+** Initial Setup (clone and build)
+```
+$ ./get_create3_sim.sh
+```
+
+** Updating Create3 Sim
+```
+$ ./update_create3_sim.sh
+```
+
+** Starting Create3 Sim
+```
+$ cd ~/create3desktop/create3_ws
+$ ros2 launch irobot_create_gazebo create3.launch.py
+```
+
+
+Create3Desktop Configuration:
 
 - Create3 Sim: https://github.com/iRobotEducation/create3_sim
 - Gazebo version 11.8.1
@@ -16,7 +33,7 @@ Configuration:
   - 3.2 GHz 6-Core Intel Core i7
 
 
-Commanded From:
+Commanded From CREATE3RPI: see https://github.com/slowrunner/create3ros
 
 - Create3 Examples: https://github.com/iRobotEducation/create3_examples
   - Dance
