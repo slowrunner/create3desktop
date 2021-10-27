@@ -14,7 +14,7 @@ $ ./update_create3_sim.sh
 ** Starting Create3 Sim
 ```
 $ cd ~/create3desktop/create3_ws
-$ source install/local_setup.sh
+$ source install/local_setup.bash
 $ ros2 launch irobot_create_gazebo create3.launch.py
 ```
 
