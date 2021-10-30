@@ -15,3 +15,7 @@ $ ros2 launch irobot_create_gazebo create3.launch.py
 ```
 
 
+TIP: In Gazebo, if 'save world as' dialog does not display, or does not update from clicks and chars typed:
+- press cntl-alt-dn_arrow, cntl-alt-up_arrow to redisplay the dialog!
+
+ 
