@@ -53,6 +53,5 @@ CATKIN_IGNORE
 # Alan
 install/
 log/
-create3_sim/
 __pycache__/
-create3_ws/
+create3_sim_ws/src
